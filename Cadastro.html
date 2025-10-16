@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="Cadastro.css" />
+  <title>Cadastro</title>
+  <link rel="icon" type="image/webp" href="lete.webp">
+</head>
+
+<body>
+  <div class="container">
+    <h2>_______________________</h2>
+    <h2>Cadastro</h2>
+    <div class="containerinputs">
+      <label for="username"><strong>Como gostaria de ser chamado?</strong></label>
+      <input type="text" id="username" placeholder="Nome Completo" required />
+      <br>
+      <br>
+      <label for="emailLogin"><strong>Digite seu Email.</strong></label>
+      <br>
+      <input type="email" id="email" placeholder="Email" required />
+      <br>
+      <br>
+      <label for="password"><strong>Digite sua Senha.</strong></label>
+      <br>
+      <input type="password" id="password1" placeholder="Senha" required />
+      <br>
+      <br>
+      <label for="password"><strong>Confirme sua Senha.</strong></label>
+      <br>
+      <input type="password" id="password" placeholder="Confirme sua Senha" required />
+      <br>
+      <button onclick="cadastrar(this)"><strong>Cadastro</strong></button>
+      <p id="mensagem">Seja bem vindo!</p>
+      <a href="Login.html">Já tem uma conta? Faça Login.</a>
+      <script src="Cadastro.js"></script>
+      <h2>_______________________</h2>
+    </div>
+</body>
+
+</html>
